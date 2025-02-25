@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel e Tesoura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pedra, Papel e Tesoura</h1>
+
+        <div class="score-container">
+            <div class="score">
+                <p>Jogador</p>
+                <span id="player-score">0</span>
+            </div>
+            <div class="score">
+                <p>Computador</p>
+                <span id="computer-score">0</span>
+            </div>
+        </div>
+
+        <div class="results">
+            <p id="results-msg">Escolha uma opção para começar!</p>
+            <p id="winner-msg"></p>
+        </div>
+
+        <div class="options-container">
+            <button id="rock-btn" class="option-btn">
+                <span class="emoji">🪨</span>
+            </button>
+            <button id="paper-btn" class="option-btn">
+                <span class="emoji">📄</span>
+            </button>
+            <button id="scissors-btn" class="option-btn">
+                <span class="emoji">✂️</span>
+            </button>
+        </div>
+
+        <button id="reset-game-btn" class="reset-btn">Jogar Novamente</button>
+
+        <div class="footer">
+            <p>Quem chegar a 3 pontos primeiro vence!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
